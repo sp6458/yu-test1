@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Yu\\ReactAPI\\ReactAPI\\ReactAPI.csproj": {}
+    "C:\\Yu\\ReactAPI\\yu-test1\\ReactAPI\\ReactAPI.csproj": {}
   },
   "projects": {
-    "C:\\Yu\\ReactAPI\\ReactAPI\\ReactAPI.csproj": {
+    "C:\\Yu\\ReactAPI\\yu-test1\\ReactAPI\\ReactAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Yu\\ReactAPI\\ReactAPI\\ReactAPI.csproj",
+        "projectUniqueName": "C:\\Yu\\ReactAPI\\yu-test1\\ReactAPI\\ReactAPI.csproj",
         "projectName": "ReactAPI",
-        "projectPath": "C:\\Yu\\ReactAPI\\ReactAPI\\ReactAPI.csproj",
+        "projectPath": "C:\\Yu\\ReactAPI\\yu-test1\\ReactAPI\\ReactAPI.csproj",
         "packagesPath": "C:\\Users\\sp645\\.nuget\\packages\\",
-        "outputPath": "C:\\Yu\\ReactAPI\\ReactAPI\\obj\\",
+        "outputPath": "C:\\Yu\\ReactAPI\\yu-test1\\ReactAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
