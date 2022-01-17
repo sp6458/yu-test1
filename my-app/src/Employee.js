@@ -243,7 +243,7 @@ export class Employee extends Component{
      <div className="p-2 w-50 bd-highlight">
     
         <div className="input-group mb-3">
-            <span className="input-group-text">Emp Name</span>
+            <span className="input-group-text">Employee Name</span>
             <input type="text" className="form-control"
             value={EmployeeName}
             onChange={this.changeEmployeeName}/>
@@ -261,7 +261,7 @@ export class Employee extends Component{
         </div>
 
         <div className="input-group mb-3">
-            <span className="input-group-text">DOJ</span>
+            <span className="input-group-text">Date of Join</span>
             <input type="date" className="form-control"
             value={DateOfJoining}
             onChange={this.changeDateOfJoining}/>

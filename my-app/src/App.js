@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
     <div className="App container">
       <h3 className="d-flex justify-content-center m-3">
-        React JS Frontend
+        Company
       </h3>
         
       <nav className="navbar navbar-expand-sm bg-light navbar-dark">
@@ -22,12 +22,12 @@ function App() {
           </li>
           <li className="nav-item- m-1">
             <NavLink className="btn btn-light btn-outline-primary" to="/department">
-              Department
+              Departments
             </NavLink>
           </li>
           <li className="nav-item- m-1">
             <NavLink className="btn btn-light btn-outline-primary" to="/employee">
-              Employee
+              Employees
             </NavLink>
           </li>
         </ul>

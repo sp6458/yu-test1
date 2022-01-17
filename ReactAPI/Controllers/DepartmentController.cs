@@ -73,7 +73,7 @@ namespace ReactAPI.Controllers
                 }
             }
 
-            return new JsonResult("Added Successfully");
+            return new JsonResult("Successfully Added");
         }
 
 
@@ -83,7 +83,7 @@ namespace ReactAPI.Controllers
             string query = @"
                            update dbo.Department
                            set DepartmentName= @DepartmentName
-                            where DepartmentId=@DepartmentId
+                            where DepartmentId= @DepartmentId
                             ";
 
             DataTable table = new DataTable();
@@ -111,7 +111,7 @@ namespace ReactAPI.Controllers
         {
             string query = @"
                            delete from dbo.Department
-                            where DepartmentId=@DepartmentId
+                            where DepartmentId= @DepartmentId
                             ";
 
             DataTable table = new DataTable();
