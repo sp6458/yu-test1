@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {variables} from './Variables.js';
-
+ 
 export class Department extends Component{
 
     constructor(props){

@@ -4,11 +4,11 @@ import {Home} from './Home';
 import {Department} from './Department';
 import {Employee} from './Employee';
 import {BrowserRouter, Route, Switch,NavLink} from 'react-router-dom';
-
+import background from "./background.jpg";
 function App() {
   return (
     <BrowserRouter>
-    <div className="App container">
+    <div className="App container" style={{ backgroundImage: `url(${background})` }}>
       <h3 className="d-flex justify-content-center m-3">
         Company
       </h3>

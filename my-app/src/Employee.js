@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {variables} from './Variables.js';
-
+ 
 export class Employee extends Component{
 
     constructor(props){
@@ -179,16 +179,16 @@ export class Employee extends Component{
     <thead>
     <tr>
         <th>
-            EmployeeId
+            Employee Id
         </th>
         <th>
-            EmployeeName
+            Employee Name
         </th>
         <th>
             Department
         </th>
         <th>
-            DOJ
+            Date of Joining
         </th>
         <th>
             Options
